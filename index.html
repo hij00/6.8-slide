@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide</title>
+    <!-- 다른 사람이 만들어둔 기능을 가져다 씀 => 플러그인 -->
+    <link rel="stylesheet" href="./css/slide_styles.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- 바디에 적어도 상관은 없지만 헤드에 붙이기^^~ -->
+</head>
+<body>
+    
+    <div class="wrap swiper">
+
+        <div class="con_wrap swiper-wrapper">
+            <div class="con swiper-slide">1</div>
+            <div class="con swiper-slide">2</div>
+            <div class="con swiper-slide">3</div>
+            <!-- .con{$}*숫자 -->
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+
+    <!-- 움직일땐 보통 포지션을 많이 씀
+    인풋태그로 클릭해서 이동가능하지만 비효율적 -->
+
+    <!-- 플러그인 사용, 주로 swiper 
+    use swiper from CDN 으로 복붙해서 쓰기-->
+
+    <!-- css도 같이 쓰기 위해 레이아웃 클래스 명 추가 -->
+
+    <script src="./js/slide.js"></script>
+
+</body>
+</html>

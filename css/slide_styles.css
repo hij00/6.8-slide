@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    width: 1000px;
+    height: 500px;
+    border: 10px solid black;
+    margin: 100px auto;
+}
+
+.con_wrap{
+    /* 플러그인 알아서 크기 잡아줌*/
+    background-color: beige;
+}
+.con{
+    height: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.con_wrap:nth-child(1){
+    background-color: beige;
+}
+.con_wrap:nth-child(2){
+    background-color: gray;
+}
+.con_wrap:nth-child(3){
+    background-color: lightseagreen;
+}
