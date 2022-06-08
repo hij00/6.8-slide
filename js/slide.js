@@ -24,6 +24,7 @@ const swiper = new Swiper('.swiper', {
     //     delay: 1000,
     //   },   
     // 플러그인 모듈에서 넣고 싶은거 넣으면 됨
+    
 })
 
 // 플러그인에서 스크립트 가져올때 import빼고 const 만 / ...에 옵션넣기
